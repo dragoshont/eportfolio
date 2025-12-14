@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Engineering | Dragos Hont - MSc AI e-Portfolio</title><link>https://dragoshont.github.io/eportfolio/tag/software-engineering/</link><atom:link href="https://dragoshont.github.io/eportfolio/tag/software-engineering/index.xml" rel="self" type="application/rss+xml"/><description>Software Engineering</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://dragoshont.github.io/eportfolio/media/icon_hu11734318148517933569.png</url><title>Software Engineering</title><link>https://dragoshont.github.io/eportfolio/tag/software-engineering/</link></image><item><title>Structured Approaches to AI Development</title><link>https://dragoshont.github.io/eportfolio/publication/example-publication/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://dragoshont.github.io/eportfolio/publication/example-publication/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This work examines how structured, modular approaches from software engineering can enhance AI development processes. Drawing on 15+ years of experience building robust systems and ongoing academic study in artificial intelligence, it proposes a framework for specification-driven AI development.&lt;/p>
+&lt;h2 id="key-concepts">Key Concepts&lt;/h2>
+&lt;h3 id="modular-thinking">Modular Thinking&lt;/h3>
+&lt;p>Breaking complex AI systems into manageable, testable components that can be developed, validated, and deployed independently.&lt;/p>
+&lt;h3 id="checklist-driven-development">Checklist-Driven Development&lt;/h3>
+&lt;p>Applying systematic verification approaches to ensure quality, reproducibility, and ethical considerations throughout the AI development lifecycle.&lt;/p>
+&lt;h3 id="workflow-mining">Workflow Mining&lt;/h3>
+&lt;p>Leveraging machine learning to analyze and optimize development workflows, identifying patterns and bottlenecks in the AI delivery pipeline.&lt;/p>
+&lt;h2 id="future-directions">Future Directions&lt;/h2>
+&lt;p>This research will continue as part of the MSc AI programme, with planned applications in:&lt;/p>
+&lt;ul>
+&lt;li>MLOps and model deployment&lt;/li>
+&lt;li>AI governance and responsible AI frameworks&lt;/li>
+&lt;li>Requirements engineering for AI systems&lt;/li>
+&lt;li>Automated workflow analysis and optimization&lt;/li>
+&lt;/ul></description></item></channel></rss>
