@@ -1,7 +1,3 @@
-Here’s a polished **README draft** for your e‑portfolio, Dragos. I’ve tailored it to your academic context (University of Essex Online, MSc AI), your structured workflow style, and the expectations outlined in your module guidance. It’s modular, so you can adapt sections as your portfolio grows:
-
----
-
 # Dragos Hont – MSc Artificial Intelligence e‑Portfolio
 
 ## 📌 Overview
