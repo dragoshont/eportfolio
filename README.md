@@ -1,6 +1,6 @@
 ## Dragos Hont – MSc Artificial Intelligence e‑Portfolio
 
-### 📌 Overview
+### Overview
 Welcome to my e‑portfolio. This repository documents my academic journey through the MSc Artificial Intelligence programme at the University of Essex Online. It serves as both a reflective record of my learning and a showcase of my technical, creative, and professional development.
 
 The portfolio aligns with programme outcomes by:
@@ -57,7 +57,3 @@ This portfolio is developed in line with guidance from the University of Essex O
 - Review README files within each section for context.
 - Explore reflections for insights into my learning process.
 - Access project documentation for technical details and outcomes.
-
----
-
-Would you like me to also **draft a GitHub‑friendly version** with badges, links, and a more visual style (e.g., shields for tools, workflow diagrams), or keep it strictly academic and text‑based?
