@@ -1,6 +1,6 @@
-# Dragos Hont – MSc Artificial Intelligence e‑Portfolio
+## Dragos Hont – MSc Artificial Intelligence e‑Portfolio
 
-## 📌 Overview
+### 📌 Overview
 Welcome to my e‑portfolio. This repository documents my academic journey through the MSc Artificial Intelligence programme at the University of Essex Online. It serves as both a reflective record of my learning and a showcase of my technical, creative, and professional development.
 
 The portfolio aligns with programme outcomes by:
@@ -11,7 +11,7 @@ The portfolio aligns with programme outcomes by:
 
 ---
 
-## 🧑‍💻 About Me
+### About Me
 I am Dragos Hont, a resilient and systems‑oriented learner based in Bucharest, Romania. My academic and professional interests include:
 - **Artificial Intelligence & Machine Learning** – workflow mining, specification‑driven development, and applied AI.
 - **Structured Workflows** – modular, checklist‑driven approaches to technical and everyday tasks.
@@ -21,7 +21,7 @@ This portfolio reflects my commitment to rigorous, reproducible work and my adap
 
 ---
 
-## 📂 Structure
+### Structure
 The repository is organised into the following sections:
 
 - **Module Artefacts**  
@@ -38,7 +38,7 @@ The repository is organised into the following sections:
 
 ---
 
-## 🎯 Goals
+### Goals
 Through this portfolio, I aim to:
 - Showcase my technical proficiency in AI and computing.
 - Demonstrate creativity and problem‑solving in diverse contexts.
@@ -47,12 +47,12 @@ Through this portfolio, I aim to:
 
 ---
 
-## 📜 References
+### References
 This portfolio is developed in line with guidance from the University of Essex Online and academic frameworks such as Lorenzo & Ittelson (2005), *An Overview of E‑Portfolios* (Educause Learning Initiative).
 
 ---
 
-## 🚀 How to Navigate
+### How to Navigate
 - Browse the folders by module or theme.
 - Review README files within each section for context.
 - Explore reflections for insights into my learning process.
