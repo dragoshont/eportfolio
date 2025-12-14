@@ -9,6 +9,8 @@ The portfolio aligns with programme outcomes by:
 - Connecting coursework to broader social, ethical, and global contexts.
 - Presenting artefacts that highlight creativity, technical aptitude, and employability.
 
+**Live Site:** [https://dragoshont.github.io/eportfolio/](https://dragoshont.github.io/eportfolio/)
+
 ---
 
 ### About Me
@@ -21,20 +23,98 @@ This portfolio reflects my commitment to rigorous, reproducible work and my adap
 
 ---
 
-### Structure
+### Technical Setup
+
+This e-portfolio is built using:
+- **[Hugo](https://gohugo.io/)** - Fast static site generator
+- **[Hugo Blox (Wowchemy)](https://hugoblox.com/)** - Academic theme for Hugo
+- **GitHub Actions** - Automated builds and deployment to GitHub Pages
+
+### Repository Structure
+
 The repository is organised into the following sections:
 
-- **Module Artefacts**  
-  Coursework, projects, and exercises completed across modules. Each artefact includes context, methodology, and reflections.
+```
+eportfolio/
+├── content/           # Site content
+│   ├── authors/      # Author profiles
+│   ├── post/         # Blog posts and reflections
+│   ├── project/      # Project portfolios
+│   └── publication/  # Academic publications
+├── static/           # Static assets (images, files)
+├── config/           # Hugo configuration
+└── .github/
+    └── workflows/    # GitHub Actions CI/CD
+```
 
-- **Reflections**  
-  Personal insights into challenges, achievements, and lessons learned. These entries highlight self‑assessment and growth.
+---
 
-- **Projects**  
-  Larger technical projects demonstrating applied AI and computing skills. Includes documentation, code, and evaluation.
+### How to Update Content
 
-- **Professional Development**  
-  Evidence of employability skills, communication strategies, and transferable competencies gained during the programme.
+#### Add a New Reflection/Post
+
+1. Create a new folder in `content/post/my-post-name/`
+2. Add an `index.md` file with frontmatter:
+
+```yaml
+---
+title: "My Post Title"
+date: 2024-12-14
+draft: false
+summary: "Brief summary of the post"
+tags:
+  - Reflection
+  - AI
+---
+
+Your content here...
+```
+
+3. Commit and push - GitHub Actions will automatically rebuild and deploy
+
+#### Add a New Project
+
+1. Create a new folder in `content/project/my-project/`
+2. Add an `index.md` file following the project template
+3. Optionally add a `featured.jpg` or `featured.png` image
+4. Commit and push
+
+#### Update Author Profile
+
+Edit `content/authors/admin/_index.md` to update your bio, interests, education, and social links.
+
+### Local Development
+
+To run the site locally:
+
+```bash
+# Install Hugo Extended v0.139.4+
+# Download from: https://github.com/gohugoio/hugo/releases
+
+# Clone the repository
+git clone https://github.com/dragoshont/eportfolio.git
+cd eportfolio
+
+# Initialize Hugo modules
+hugo mod get -u
+hugo mod tidy
+
+# Start the development server
+hugo server -D
+
+# View at http://localhost:1313/eportfolio/
+```
+
+### Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
+
+The workflow:
+1. Checks out the repository
+2. Installs Hugo Extended
+3. Downloads Hugo modules
+4. Builds the site
+5. Deploys to GitHub Pages
 
 ---
 
@@ -52,8 +132,19 @@ This portfolio is developed in line with guidance from the University of Essex O
 
 ---
 
-### How to Navigate
-- Browse the folders by module or theme.
-- Review README files within each section for context.
-- Explore reflections for insights into my learning process.
-- Access project documentation for technical details and outcomes.
+### License
+
+- **Code**: MIT License
+- **Content**: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+See `LICENSE` and `LICENSE-CONTENT` for details.
+
+---
+
+### Contact
+
+- **GitHub**: [@dragoshont](https://github.com/dragoshont)
+- **LinkedIn**: [dragoshont](https://linkedin.com/in/dragoshont)
+- **X/Twitter**: [@DragosHont](https://x.com/DragosHont)
+- **Blog**: [dragoshont.com](https://dragoshont.com/)
+
