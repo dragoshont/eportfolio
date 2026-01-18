@@ -36,3 +36,9 @@ build/
 
 # Node
 node_modules/
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
