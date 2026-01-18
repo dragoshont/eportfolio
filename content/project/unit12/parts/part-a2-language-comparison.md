@@ -1,0 +1,38 @@
+# Part A2: Language Comparison Report (~1,100 words)
+
+## Programming Model
+Python and JavaScript both support multi-paradigm programming, but the small scripts used here show a procedural style: input in, transform, output. Python’s list and set operations emphasize data transformation with concise syntax and built-in sorting semantics (Python Software Foundation, 2026). JavaScript uses arrays and `Set` as well, but array sorting behavior is more configurable and must be defined explicitly when default ordering could be misleading (MDN Web Docs, 2026a; MDN Web Docs, 2026b). In practice, both languages allow procedural, object-oriented, and functional styles, but their defaults encourage slightly different coding patterns for collections and iteration.
+
+In Python, the data model is tightly integrated with the standard library and language constructs. The `set` type is a first-class collection with clear mathematical semantics, and sorting is supported through built-in functions and optional `key` parameters that allow stable, predictable ordering without much boilerplate (Python Software Foundation, 2026). This makes procedural data transformations concise and encourages a direct “transform and return” pattern. JavaScript, by contrast, often relies on method chaining and callback functions; even simple tasks like sorting require a comparator to avoid lexicographic defaults for non-trivial cases (MDN Web Docs, 2026a). The programming model is still procedural in this exercise, but the language’s emphasis on functions as values is more visible.
+
+Both languages can be used in object-oriented ways (classes, methods, encapsulation), yet their idioms differ. Python tends toward explicitness and readability as design priorities, while JavaScript emphasizes flexibility and runtime dynamism. For the purposes of this assignment, the procedural core is sufficient, but the difference in how each language exposes data structures and default behaviors influences how quickly a student can reason about outcomes.
+
+## Readability and Developer Accessibility
+Python prioritizes readability with consistent indentation, a small core syntax, and standard library idioms like `sorted()` and `sort()` (Python Software Foundation, 2026). For newcomers, the Python version reads almost like pseudocode. JavaScript is widely accessible due to its ubiquity in web development and a large ecosystem, but small tasks often require more boilerplate (e.g., comparator functions for sorting) (MDN Web Docs, 2026a). The readability trade-off is that JavaScript’s flexibility can produce subtle differences in output if default behaviors are not fully understood.
+
+In the Python script, normalization, deduplication, and sorting are separated, and the intent is clear from the built-in names. The normalization step makes the case-insensitive rule explicit, and the final capitalization standardizes the output. In the JavaScript script, the same sequence is implemented with `map`, `filter`, and `Set`, and the comparator keeps ordering predictable. The overall readability is still good, but JavaScript uses more method chaining, which can feel denser to a beginner (MDN Web Docs, 2026a).
+
+Accessibility also depends on the environment: JavaScript has a near-universal runtime in browsers and is common in entry-level web development curricula. Python, while not present in browsers, is widely used in scripting, data analysis, and introductory programming courses. This means a student’s prior exposure might shift perceived readability. In this exercise, Python’s shorter syntax likely reduces cognitive load for a small data-processing task, while JavaScript’s ecosystem familiarity can offset the verbosity.
+
+## Error Handling and Debugging
+Python provides clear exceptions and stack traces, and its interpreter encourages rapid feedback cycles during small experiments. JavaScript’s runtime errors are also explicit, but type coercion and default behaviors (like lexicographic sorting) can lead to unexpected outcomes without obvious errors (MDN Web Docs, 2026a). In this exercise, the difference is not about error mechanisms but about ensuring the intended behavior is encoded directly, which reduces silent logic issues.
+
+For example, if unexpected types were inserted into the Python list, a `TypeError` would likely surface during sorting because Python does not implicitly compare unlike types. That is a visible error that prompts correction. In JavaScript, mixed types can still be compared because values are often coerced to strings, which means the program can “work” but produce a surprising order. Debugging is therefore partly about understanding implicit conversions and defaults, not just fixing runtime crashes.
+
+Both languages support debugging with interactive tools. Python has REPL-driven exploration, while JavaScript has browser and Node.js debugging tools. The key difference here is predictability: Python’s explicit error messages encourage early correction, while JavaScript’s permissiveness can obscure issues unless the developer anticipates them and guards against them. That makes inline comments and explicit comparators particularly important in JavaScript for this assignment.
+
+## Suitability for Modern Computing Tasks
+Python is commonly used for data science, scripting, and automation due to its ecosystem and expressive data-handling features (Python Software Foundation, 2026). JavaScript is the dominant language for web applications and is increasingly used for server-side work in Node.js; its compatibility with browsers makes it the default for front-end development (MDN Web Docs, 2026a; MDN Web Docs, 2026b). For tasks that need strong web integration, JavaScript is often the first choice, while Python remains a strong fit for data-heavy workflows and rapid prototyping.
+
+In practice, the language choice depends on deployment context. Python is an excellent fit for data cleaning, analytics pipelines, and internal automation tools. It is also common in machine learning workflows, where libraries and community support are extensive. JavaScript’s advantage is universal delivery: the same language can run in the browser and on a server, which lowers the barrier for full-stack development. For tasks like the one in this assignment, either language is suitable, but the target runtime changes how one thinks about dependencies, packaging, and user access.
+
+Another practical factor is collaboration. JavaScript is the default in web teams, and its tooling integrates well with front-end build systems. Python fits research teams and data-heavy products where quick iteration and exploratory analysis are central. The small scripts here demonstrate that both languages can solve simple tasks effectively, but their broader ecosystems shape how those tasks scale into larger projects.
+
+Finally, the availability of standard documentation also impacts suitability. Python’s official guides make it straightforward to reason about sorting and collection behavior, while MDN provides clear explanations for JavaScript’s defaults and edge cases (Python Software Foundation, 2026; MDN Web Docs, 2026a). This documentation support reduces onboarding time and improves reliability in team settings.
+
+## References
+MDN Web Docs (2026a) Array.prototype.sort(). Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort (Accessed: 18 January 2026).
+
+MDN Web Docs (2026b) Set. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set (Accessed: 18 January 2026).
+
+Python Software Foundation (2026) Sorting HOW TO. Available at: https://docs.python.org/3/howto/sorting.html (Accessed: 18 January 2026).
