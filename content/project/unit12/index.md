@@ -4,13 +4,13 @@ summary: "Unit 12: Future Trends and Concepts in Computing — code examples and
 date: 2026-01-18
 featured: true
 tags:
-	- Academic
+  - Academic
 categories:
-	- MSc
+  - MSc
 image:
-	caption: ""
-	focal_point: "Center"
-	preview_only: true
+  caption: ""
+  focal_point: "Center"
+  preview_only: true
 ---
 
 ## Unit 12: Future Trends and Concepts in Computing
