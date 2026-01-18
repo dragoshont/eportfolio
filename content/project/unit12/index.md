@@ -22,9 +22,9 @@ This unit focuses on practical scripting for data cleaning and a research‑back
 - [cleanNames.js](cleanNames.js)
 
 ### Documents
-- [Part B Overview](part-b/overview.md)
-- [Slide Outline](part-b/slide-outline.md)
-- [Slide Deck Draft](part-b/slide-deck.md)
-- [Transcript Draft](part-b/transcript.md)
-- [References](part-b/references.md)
-- [Validation Checklist](part-b/validation.md)
+- [Part B Overview]({{< relref "project/unit12/part-b/overview.md" >}})
+- [Slide Outline]({{< relref "project/unit12/part-b/slide-outline.md" >}})
+- [Slide Deck Draft]({{< relref "project/unit12/part-b/slide-deck.md" >}})
+- [Transcript Draft]({{< relref "project/unit12/part-b/transcript.md" >}})
+- [References]({{< relref "project/unit12/part-b/references.md" >}})
+- [Validation Checklist]({{< relref "project/unit12/part-b/validation.md" >}})
