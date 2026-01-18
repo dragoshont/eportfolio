@@ -38,4 +38,4 @@ Even for internal tools, inaccurate outputs can misinform decisions, leading to 
 From a personal perspective, this exercise reinforces the importance of intentionality. The change I made was small, yet it required me to articulate why it was necessary and how it affected outputs. That discipline scales to larger projects: every change should have a clear purpose, an explanation, and a record. This mindset reduces risk and aligns technical work with broader social responsibilities.
 
 ## Reflection Example
-See examples in specs/001-module1-lang-comparison/parts/reflection-examples.md
+Example: Cambridge Analytica (Facebook data misuse) — Personal data from millions of Facebook users was harvested without clear consent and used for political profiling. Impact area: privacy, misuse, and regulatory/legal consequences. This relates because small data-handling decisions and weak safeguards can lead to large-scale harm.
