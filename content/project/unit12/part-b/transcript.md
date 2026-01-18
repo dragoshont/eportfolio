@@ -1,16 +1,14 @@
-# Transcript (Draft)
+# Transcript
 
 ## Slide 1
 Today I’m evaluating Generative AI in enterprise decision‑making. The goal is not to celebrate the technology in isolation, but to show how organizations can unlock value while managing ethical and security risk. I’ll explain the technical foundations, the real‑world applications that drive adoption, and the risk landscape that comes with embedding GenAI in decision workflows. I’ll then connect governance controls from the NIST AI Risk Management Framework and GDPR to show how enterprises can balance innovation with accountability. Finally, I’ll walk through two case studies. The first is a demonstration of AI in a circular‑economy setting, where cybersecurity and sustainability pressures collide. The second case study focuses on GenAI in finance, where decision support must be accurate, auditable, and safe. The take‑away is a structured approach: build guardrails early, measure impact continuously, and ensure human oversight remains central to critical decisions. This structure aligns with enterprise expectations for reliability, compliance, and trust.
 
 This presentation is designed to be evidence‑based and concise, so each slide delivers a focused claim supported by peer‑reviewed sources.
 
-To manage time, I’ll allocate roughly one minute for definitions, three minutes for foundations and applications, three minutes for risks, two minutes for governance, and three minutes for the case‑study walkthrough plus finance example. The remaining time is for conclusion and synthesis. The key point is that GenAI can transform decision workflows, but only if it is managed like a critical business system. Throughout, I’ll keep the focus on enterprise decision support, not autonomous decision‑making, because accountability and auditability are central to the question.
-
 ## Slide 2
 Generative AI in enterprise decision‑making refers to models that produce text, summaries, recommendations, or scenarios that help humans decide. In practice, that means a model that drafts options, ranks risks, or synthesizes evidence so a human can make a final call. The key is human‑in‑the‑loop accountability: the model provides output, but humans are responsible for evaluating it, validating it, and making the actual decision. In enterprise settings, GenAI outputs can feed decision pipelines by summarizing regulatory requirements, recommending actions based on risk scores, or generating scenario analyses for strategic planning. These outputs are valuable because they compress complexity and speed up decisions, but they also amplify governance expectations because they influence outcomes that impact customers, employees, and business continuity. The scope here is enterprise decision support, not autonomous decision‑making, which keeps accountability with decision owners.
 
-It is also useful to frame decision‑making as a pipeline: data is gathered, GenAI produces candidate outputs, and a decision owner applies judgment, policy, and compliance checks. This means systems must label outputs as advisory, track who approved actions, and record the evidence used. Without these guardrails, GenAI output can be treated as authoritative even when it is uncertain. Defining scope early reduces ambiguity and aligns the system to governance requirements.
+It is also useful to frame decision‑making as a pipeline: data is gathered, GenAI produces candidate outputs, and a decision owner applies judgment, policy, and compliance checks. This means systems must label outputs as advisory, track who approved actions, and record the evidence used. Without these guardrails, GenAI output can be treated as authoritative even when it is uncertain.
 
 In other words, GenAI should be treated as a decision accelerator, not a decision maker. The moment the model output becomes the final answer, the organization loses the ability to challenge outcomes and show accountability, which is exactly what regulators and stakeholders expect.
 
@@ -39,8 +37,6 @@ Governance connects ethics and security to formal controls. The NIST AI RMF offe
 
 Operationally, governance should define ownership of the model lifecycle, including model updates, dataset changes, and incident response. GDPR requirements such as Data Protection Impact Assessments and data‑subject rights should be translated into practical steps within the GenAI workflow. Aligning AI RMF to these legal obligations ensures that compliance is not an afterthought but part of the design.
 
-This also implies governance checkpoints at procurement, deployment, and monitoring, so risk controls are applied continuously rather than only during initial approval. Continuous governance supports the “measure and manage” loop in AI RMF.
-
 ## Slide 8
 Case Study 1 is a demonstration of GenAI in a circular‑economy setting. The sector is recycling or manufacturing, operating in an EU or UK context, using waste‑sorting and supply‑chain data. The workflow is: sense data from sensors and logistics, predict waste streams and demand, act by optimizing sorting or routing, and audit outcomes for compliance and cybersecurity. This demo highlights how GenAI supports sustainability goals while introducing risks in interconnected systems. The study emphasizes cybersecurity risk mitigation and governance to protect these systems (Bashynska and Prokopenko, 2024). The walkthrough illustrates how decision‑support outputs are validated by humans and logged for accountability, so sustainability gains are not undermined by cybersecurity failures.
 
@@ -53,7 +49,5 @@ In finance, regulators expect explainability and traceability. That means GenAI 
 
 ## Slide 10
 In conclusion, Generative AI can strengthen enterprise decision‑making, but only when ethical and security risks are addressed up front. The balance comes from governance, transparency, and rigorous validation. The NIST AI RMF and GDPR provide a framework for managing risk, while case studies show how governance can be operationalized in practice. The practical message is to embed controls at every stage: data, model, outputs, and decisions. If organizations do this, they can innovate responsibly while protecting stakeholders and maintaining trust. The final decision is not whether to adopt GenAI, but how to adopt it responsibly, with accountability built into every layer of the decision process.
-
-To summarize, the enterprise pathway to safe GenAI is: define scope, build secure pipelines, implement governance controls, and continuously measure outcomes. This approach enables innovation while respecting legal, ethical, and security obligations. It also provides a defensible narrative if decisions are challenged, which is a critical requirement in regulated industries.
 
 The final takeaway is that responsible GenAI adoption is a management decision as much as a technical one. Enterprises need cross‑functional ownership so that security, legal, and business leaders share accountability for outcomes.
