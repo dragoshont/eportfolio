@@ -16,8 +16,8 @@
 - Node.js: v24.12.0
 
 ## Run Commands
-- Python: `C:/src/eportfolio/.venv/Scripts/python.exe clean_names.py`
-- Node.js: `node cleanNames.js`
+- Python: `C:/src/eportfolio/.venv/Scripts/python.exe .\content\project\unit12\clean_names.py`
+- Node.js: `node .\content\project\unit12\cleanNames.js`
 
 ## Version Checks
 - Python: `C:/src/eportfolio/.venv/Scripts/python.exe --version` → 3.13.9
