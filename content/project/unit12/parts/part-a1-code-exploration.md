@@ -1,4 +1,10 @@
-# Part A1: Code Exploration (~700 words)
+---
+title: "Part A1: Code Exploration (~700 words)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Test Inputs
 - Input set name: Default mixed-case list

@@ -1,4 +1,10 @@
-# Validation Checklist
+---
+title: "Validation Checklist"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 - [ ] ≤10 slides
 - [ ] ≤15 minutes

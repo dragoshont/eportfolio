@@ -1,4 +1,10 @@
-# Reflection Examples
+---
+title: "Reflection Examples"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Example 1: Cambridge Analytica (Facebook data misuse)
 - **Summary**: Personal data from millions of Facebook users was harvested without clear consent and used for political profiling.

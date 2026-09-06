@@ -1,4 +1,10 @@
-# Assignment Overview
+---
+title: "Assignment Overview"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Structure
 - Part A1: Code Exploration (~700 words)

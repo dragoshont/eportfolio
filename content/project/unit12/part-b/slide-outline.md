@@ -1,4 +1,10 @@
-# Slide Outline (Draft)
+---
+title: "Slide Outline (Draft)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 1. Title & purpose
 2. What is Generative AI in enterprise decision-making?

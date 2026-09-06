@@ -1,4 +1,10 @@
-# Slide Deck Content (Draft)
+---
+title: "Slide Deck Content (Draft)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 > Each slide: ≤40 words, ≥1 visual, Harvard citations in-text.
 

@@ -1,4 +1,10 @@
-# Part B Presentation Overview
+---
+title: "Part B Presentation Overview"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Scope
 - Topic: Generative AI in enterprise decision-making

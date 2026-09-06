@@ -1,4 +1,10 @@
-# Part A3: Professional Reflection (~1,200 words)
+---
+title: "Part A3: Professional Reflection (~1,200 words)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Readable and Ethical Code
 Readable code is a professional obligation because it reduces the chance of hidden defects and makes reviewable behavior explicit. Even a small script that removes duplicates and sorts data can encode decisions about fairness (case sensitivity), transparency (clear comments), and safety (handling unexpected inputs). When code is readable, peers can validate assumptions and detect risks earlier, which supports ethical outcomes.

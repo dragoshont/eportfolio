@@ -1,4 +1,10 @@
-# Part A2: Language Comparison Report (~1,100 words)
+---
+title: "Part A2: Language Comparison Report (~1,100 words)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Programming Model
 Python and JavaScript both support multi-paradigm programming, but the small scripts used here show a procedural style: input in, transform, output. Python’s list and set operations emphasize data transformation with concise syntax and built-in sorting semantics (Python Software Foundation, 2026). JavaScript uses arrays and `Set` as well, but array sorting behavior is more configurable and must be defined explicitly when default ordering could be misleading (MDN Web Docs, 2026a; MDN Web Docs, 2026b). In practice, both languages allow procedural, object-oriented, and functional styles, but their defaults encourage slightly different coding patterns for collections and iteration.

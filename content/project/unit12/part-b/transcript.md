@@ -1,4 +1,10 @@
-# Transcript
+---
+title: "Transcript"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 ## Slide 1
 Today I’m evaluating Generative AI in enterprise decision‑making. The goal is not to celebrate the technology in isolation, but to show how organizations can unlock value while managing ethical and security risk. I’ll explain the technical foundations, the real‑world applications that drive adoption, and the risk landscape that comes with embedding GenAI in decision workflows. I’ll then connect governance controls from the NIST AI Risk Management Framework and GDPR to show how enterprises can balance innovation with accountability. Finally, I’ll walk through two case studies. The first is a demonstration of AI in a circular‑economy setting, where cybersecurity and sustainability pressures collide. The second case study focuses on GenAI in finance, where decision support must be accurate, auditable, and safe. The take‑away is a structured approach: build guardrails early, measure impact continuously, and ensure human oversight remains central to critical decisions. This structure aligns with enterprise expectations for reliability, compliance, and trust.

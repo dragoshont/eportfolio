@@ -1,4 +1,10 @@
-# References (Harvard — Cite Them Right)
+---
+title: "References (Harvard, Cite Them Right)"
+date: 2026-01-18
+_build:
+  list: never
+  render: always
+---
 
 > Exactly eight peer-reviewed sources. Use author–year in-text citations.
 
