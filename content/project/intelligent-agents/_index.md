@@ -57,7 +57,7 @@ _Status checked 18 September 2026. Neither final submission has been made._
 
 - **Individual Presentation — due 12 October 2026, 23:55 UK time (40%).** Pending: tested agent code and dependencies, README, execution/test/remediation evidence, and a presentation of no more than 10 slides with a narration transcript, within 20 minutes. No completed implementation or presentation is claimed here.
 - **e-Portfolio — due 19 October 2026, 23:55 UK time (40%).** Pending: up to 1,500 words of evidence and a 1,000-word reflection including three experience-based case studies, evaluation of project design and implementation, and the portfolio URL in the final document. The own-work declaration and final Moodle submission must be completed by me.
-- **Share your e-portfolio forum — pending.** The portfolio link has not yet been shared there.
+- **Share your e-portfolio forum — complete.** The portfolio root and IA module links were [shared in Moodle](https://www.my-course.co.uk/mod/forum/discuss.php?d=390478#p795938) on 18 September 2026; the activity is marked Done.
 
 ### Reflective Piece
 
