@@ -19,11 +19,13 @@ This module covers agent-based system design, agent communication languages (KQM
 
 ### Team Project
 
-- Development Team Project: Project Report (Group D design proposal for an agent-based academic research assistant, with planning, retrieval and evaluation/synthesis agents coordinated by a deterministic orchestrator). Submitted for grading, 4 September 2026.
+- Development Team Project: Project Report (Group D design proposal for an agent-based academic research assistant, with planning, retrieval and evaluation/synthesis agents coordinated by a deterministic orchestrator). Submitted 4 September 2026; assessed and feedback received (status checked 18 September 2026).
 - My individual contribution: Section 5, Challenges, Risks and Mitigations.
-- Individual Peer Evaluation, submitted for grading, 5 September 2026.
+- Individual Peer Evaluation, submitted 5 September 2026.
 
 ### Collaborative Discussions
+
+Moodle links require course access.
 
 **Discussion 1: Agent Based Systems**
 - [Initial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=384275#p780387)
@@ -35,11 +37,27 @@ This module covers agent-based system design, agent communication languages (KQM
 - [Initial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=386499#p786580)
 - [Peer Response 1](https://www.my-course.co.uk/mod/forum/discuss.php?d=386375#p790066)
 - [Peer Response 2](https://www.my-course.co.uk/mod/forum/discuss.php?d=385616#p790067)
-- Summary Post: due end of Unit 7.
+- [Summary Post — portfolio copy]({{< relref "discussions/discussion-2-summary.md" >}}) ([original Moodle post](https://www.my-course.co.uk/mod/forum/discuss.php?d=390476#p795935)), published 18 September 2026.
+
+Discussion 2 is complete in Moodle (checked 18 September 2026).
+
+**Discussion 3: Deep Learning (Units 9–11) — pending**
+- Initial post (at least 200 words), connecting an ethical or safety issue and a credible source to my own agent.
+- At least two peer responses, followed by a 300-word summary in Unit 11. These contributions are not yet completed.
 
 ### Unit Activities
 
 - [Unit 6: Creating Agent Dialogues]({{< relref "units/creating-agent-dialogues.md" >}}): a KQML/KIF dialogue between two stock agents.
+- Unit 8: Creating Parse Trees — pending; the constituency-tree exercise still needs to be completed and saved here.
+- Unit 10: Deep Learning in Action — pending; application selection, explanation of how it works, societal/ethical/privacy discussion, and forum and portfolio contributions remain to be completed.
+
+### Remaining Assessment Work
+
+_Status checked 18 September 2026. Neither final submission has been made._
+
+- **Individual Presentation — due 12 October 2026, 23:55 UK time (40%).** Pending: tested agent code and dependencies, README, execution/test/remediation evidence, and a presentation of no more than 10 slides with a narration transcript, within 20 minutes. No completed implementation or presentation is claimed here.
+- **e-Portfolio — due 19 October 2026, 23:55 UK time (40%).** Pending: up to 1,500 words of evidence and a 1,000-word reflection including three experience-based case studies, evaluation of project design and implementation, and the portfolio URL in the final document. The own-work declaration and final Moodle submission must be completed by me.
+- **Share your e-portfolio forum — pending.** The portfolio link has not yet been shared there.
 
 ### Reflective Piece
 
@@ -51,4 +69,4 @@ _Pending (to be completed before the final e-Portfolio submission)._
 
 ### Team Meeting Notes and Peer Feedback
 
-_Pending (to be drawn from the Group D collaboration record before the final e-Portfolio submission)._
+_Pending. Only a student-authored, public-safe account may be added here; private group documents, full peer replies and raw tutor feedback are not reproduced._
