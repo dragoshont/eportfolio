@@ -48,7 +48,7 @@ Discussion 2 is complete in Moodle (checked 18 September 2026).
 ### Unit Activities
 
 - [Unit 6: Creating Agent Dialogues]({{< relref "units/creating-agent-dialogues.md" >}}): a KQML/KIF dialogue between two stock agents.
-- Unit 8: Creating Parse Trees — pending; the constituency-tree exercise still needs to be completed and saved here.
+- [Unit 8: Creating Parse Trees]({{< relref "units/creating-parse-trees.md" >}}): portfolio evidence published; Moodle completion pending verification.
 - Unit 10: Deep Learning in Action — pending; application selection, explanation of how it works, societal/ethical/privacy discussion, and forum and portfolio contributions remain to be completed.
 
 ### Remaining Assessment Work
